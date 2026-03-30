@@ -90,14 +90,16 @@ Tēma: {request.topic}
 Uzdevums: {request.question}
 Lietotāja atbilde: {request.user_answer}
 
-Paskaidro īsi latviešu valodā, kāpēc lietotāja atbilde ir nepareiza.
-SVARĪGI:
-- Nedod pareizo gala atbildi.
+Uzraksti īsu paskaidrojumu latviešu valodā, kāpēc atbilde ir nepareiza.
+
+Prasības:
+- Maksimums 2-3 īsi teikumi.
+- Sāc uzreiz ar kļūdas skaidrojumu.
+- Atbildei jābūt tiešai un konkrētai.
+- Nekādu uzslavu vai lieku pieklājības frāžu, viss ir jābūt neitrāls, skaidrs un konkrēts.
+- Nedod pareizo atbildi.
 - Nepārraksti pilnu risinājumu.
-- Neizmanto kodu blokos pilnu pareizo risinājumu.
-- Vari dot īsu konceptuālu padomu, ja nav noteikta risinājuma.
-- Atbildi 2 līdz 4 teikumos, lai nebūtu daudz jālasa.
-- Tonis lai ir skaidrs un atbalstošs, bet ne pārāk draudzīgs, kā pasniedzējam.
+- Ja nepieciešams, dod tikai ļoti īsu norādi par konceptu.
 """
 
         response = client.models.generate_content(
